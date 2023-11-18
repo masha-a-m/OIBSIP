@@ -151,7 +151,149 @@ html {
     display:flex;
     flex-direction: column;
     float:right;
+    font-size:20px;
+    margin-right:30px;
 }
-ul-img{
-   
+.ul-img{
+    margin-left: 100px;
+    transform: skew(1deg, 10deg);
+}
+
+.stat{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap:200px;
+    height: 400px;
+    
+}
+
+.stat h2{
+    position:relative;
+    top:60px;
+    left:120px;
+    font-size: 30px;
+}
+.stat h3{
+    margin-top: 200px;
+    position:relative;
+    bottom:80px;
+    right:600px;
+    margin-right:-500px;
+    font-size:20px;
+    line-height: 30px;
+    gap:29px;
+    font-weight: 300;
+}
+
+.stat-img{
+    width:400px
+}
+
+.personalized-section{
+    font-size:20px;
+    font-weight: 300;
+    position:relative;
+    text-align: center;
+}
+
+#platform-sec{
+    width:100%;
+    height:800px;
+    background-color: rgb(216, 175, 167);
+    margin-top:100px;
+
+}
+
+.plat-sec{
+    position: relative;
+    top:70px;
+    left:100px;
+    color:#fff;
+    font-size:30px;
+}
+
+.plat-sect{
+    position: relative;
+    top:70px;
+    left:100px;
+    color:#f56d5196;
+    font-size:20px;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-;
+    font-size:20px;
+    position:relative;
+    left:100px;
+    color:#fff;
+}
+.plat{
+    flex-basis: 33%;
+    margin-top:100px; 
+}
+
+.plat h5{
+    font-weight: 300;
+}
+
+#plat1{
+    position:relative;
+    left:230px;
+}
+
+#quote-section{
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+footer{
+    width:100%;
+    height:200px;
+    background-color: #dfd4d2;
+}
+
+footer ul{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap:70px;
+    
+}
+
+footer ul li{
+    list-style-type: none;
+    margin-top:40px;
+    font-weight: bold;
+}
+footer ul li:hover{
+    color:#EFAEA1
+}
+
+.wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap:30px;
+    color:#000;
+    font-size: 20px;
+}
+
+.wrapper a{
+    color:#fff;
+}
+
+.wrapper a:hover{
+    color:#e3d2bf;
 }
